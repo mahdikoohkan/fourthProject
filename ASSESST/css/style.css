@@ -1,0 +1,177 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+*{
+    box-sizing: inherit;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+.navigation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    margin-top: 20px;
+    box-shadow: 0px 0px 2px 0px black;
+    transition: background ease 1s;
+}
+.navigation:hover{
+    box-shadow: 0px 0px 2px 0px blue;
+    background: linear-gradient(to top,rgb(0,51,255),rgb(0,153,255));
+
+}
+.navigation ul{
+    list-style: none;
+}
+.navigation ul li{
+    padding: .5rem;
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+.navigation ul li a:hover{
+    color: snow;
+}
+.navigation .logoInNav{
+    max-width: 50%;
+    padding-top:20px; 
+}
+
+.imgInHeader{
+    margin-top: 20px;
+    width: 100%;
+    height: 10%;
+}
+.Header{
+    background: url("/ASSESST/images/bike\ trip.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 500px;
+    margin-top: 20px;
+}
+/* -----------=========content---------------======= */
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    /* background-color: #f2f10ff2; */
+}
+h2{
+    text-align: center;
+    font-size: 1.6rem;
+}
+h3{
+    margin: 0px;
+    font-weight: 700;
+    }
+img{
+    max-width: 100%;
+}
+.content{
+    background-color: snow;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    padding: 1rem;
+    text-align: center;
+}
+.content h3{
+    text-align: center;
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+}
+.content span{
+    color: #db008d;
+}
+.button{
+    background-color: #008fd1;
+    color: snow;
+    padding: .6rem 2rem;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+
+/* ++++++-------ListBox---------+++++++++ */
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+}
+.listBox{
+    width: calc(50% - 10px);
+    height: 100px;
+    margin: 5px;
+}
+.listBox:hover{
+    box-shadow: 0px 0px 7px 0px black;
+    padding: 17px;
+}
+.list a{
+    text-decoration: none;
+    color: black;
+}
+.gamepad{
+    background-color: #db008d;
+    font-size: 1rem;
+    padding-top: 15px;
+}
+.gamepad i{
+    font-size: 2rem;
+}
+.bicycle{
+    background-color: #008fd1;
+    font-size: 1rem;
+    padding-top: 15px;
+}
+.bicycle i{
+    font-size: 2rem;
+
+}
+.map{
+    background-color: #008fd1;
+    font-size: 1rem;
+    padding-top: 15px;
+}
+.map i{
+    font-size: 2rem;
+
+}
+.music{
+    background-color: #db008d;
+    font-size: 1rem;
+    padding-top: 15px;
+}
+.music i{
+    font-size: 2rem;
+
+}
+
+/* ----======Footer=======-------- */
+
+.footer{
+    background-color: #008fd1;
+    padding: 10px 10px 10px 20px;
+    color: snow;
+    line-height: 1.5;
+}
+.footer .footerBox ul{
+    text-align: center;
+}
+.footer .footerBox ul li{
+    list-style-type: none;
+}
+.footer .footerBox ul a{
+    text-decoration: none;
+    color: snow;
+}
+.footer .footerBox ul a:hover{
+    color: black;
+}
+.footer .footerBox .icons a li{
+    font-size: 2rem;
+    padding-left: 20px;
+}
